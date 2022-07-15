@@ -1,0 +1,27 @@
+
+How to run:
+
+Download driver for Chrome: https://chromedriver.chromium.org/downloads
+
+Install all required python packages library
+
+Run in terminal with line: python -m pytest -v --driver Chrome --driver-path <~>/chromedriver.exe tests/"enter the name of the file with autotests".py
+
+Автотесты хранятся в папке tests.
+
+Файл test_start_page_links.py - содедржит в себе автотесты проверяющие корректность ссылок и переходов в меню из стартовой страницы сайта;
+
+Файл test_start_page_search.py - содедржит в себе автотесты проверяющие функционал модуля поиска товаров и сортировку по типу товаров на сайте;
+
+Файл test_product_card.py - содедржит в себе автотесты проверяющие функционал карточки товаров представленных на сайте;
+
+Файл test_favorites.py - содедржит в себе автотесты проверяющие функционал модуля 'Избранное' раздела меню профеля;
+
+Файл test_cart.py - содедржит в себе автотесты проверяющие функционал модуля 'Корзина' раздела меню профеля;
+
+Файл test_login.py - содедржит в себе автотесты проверяющие некоторый функционал модуля 'авторизации на сайте' раздела меню профеля;
+
+Файл classes.py - содедржит в себе базу локаторов сайта используемых в автотестах этого проекта.
+
+Файл base_page.py – работа со стартовой страницей
+
